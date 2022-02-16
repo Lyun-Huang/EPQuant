@@ -2,10 +2,9 @@
 This repository contains the implementation of our paper: EPQuant: An Efficient Quantization Methodology for Graph Neural Networks with Enhanced Product Quantization.
 
 ## Dependencies
-Our code works with Python 3.7.5 and newst. To run the code, you must have the following packages installed:
-- [Pytorch](http://pytorch.org/) (version=1.7.1)
-- [PyG](https://github.com/rusty1s/pytorch_geometric) (version=1.6.1)
-- [NumPy](http://www.numpy.org/)
+Our code works with Python 3.8 and newst. To run the code, you must have the following packages installed:
+- [Pytorch](http://pytorch.org/) (version=1.9.0)
+- [PyG](https://github.com/rusty1s/pytorch_geometric) (version=2.0.0)
 
 ## Training and evaluate
 To train the model with EPQuant, the dataset(s) need to be quantized with EPQ first. You can use the command we provide if you use one of datasets in Cora, Citeseer, PubMed, Reddit, and Amazon2M/ogbn-products.
