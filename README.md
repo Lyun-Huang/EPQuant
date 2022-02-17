@@ -35,7 +35,7 @@ We provide some pre-trained model in this repo to reproduct the results in our p
 python epq_sparse.py --fast --block_size=22 --model='GCN' --dataset='Citeseer' --pretrained
 ```
 
-Everytime you run `epq_sparse.py` or `epq_dense.py`, you can see the results concluded as follows:   
+If you add "--print_result" option, you can see the results concluded as follows:   
 
 | data type   | size before quant(MB) | size after quant(MB) | compression ratio |  
 | :---------: | :-------------------: | :------------------: | :--------------:  |  
