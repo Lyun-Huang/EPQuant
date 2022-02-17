@@ -1,0 +1,12 @@
+*/data
+*/*/data
+*_record
+ckpt
+*.pyc
+*/*.pyc
+*/*/*.pyc
+data
+*.pth
+*.bak
+*.pth
+*.pt
